@@ -1,8 +1,4 @@
 #                                                                                                                                                                 بسم الله الرحمن الرحيم
-
-Baca artikel detikhikmah, "Tulisan Arab Bismillahirrahmanirrahim Beserta Arti dan Keutamaan" selengkapnya https://www.detik.com/hikmah/doa-dan-hadits/d-6665987/tulisan-arab-bismillahirrahmanirrahim-beserta-arti-dan-keutamaan.
-
-Download Apps Detikcom Sekarang https://apps.detik.com/detik/
 # FAZ.ALPHA
 Grab cam shots from target's phone front camera or PC webcam just sending a link.
 ![CamPhish By FAZ.Pemuda Akhir Zaman](https://i.imghippo.com/files/VhrAC1723911538.png)
