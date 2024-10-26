@@ -27,7 +27,7 @@ Grab cam shots from target's phone front camera or PC webcam just sending a link
 
 # Installing and requirements
 <p>This tool require PHP for webserver, SSH or serveo link. First run following command on your terminal</p>
-<p>rekomendasi download termuxnyeh: https://f-droid.org/packages/com.termux (males pake terjemahnya)/</p>
+<p>Recommended download of Termux here : https://f-droid.org/packages/com.termux</p>
 
 ```
 apt-get -y install php openssh git wget
@@ -53,7 +53,7 @@ bash camphish.sh
 <p><b>Version: 1.5:</b> Add new online meeting template</p>
 <p><b>Version: 1.4:</b> Ngrok authtoken update</p>
 <p><b>Version: 1.3:</b> Fix ngrok direct link</p>
- <p><b>Version: 1.5:</b> Halo saya Hadir Disni</p>
+ <p><b>Version: 1.5:</b> Thank you</p>
 
 #### For More Video subcribe <a href="">Not now YouTube Channel</a>
 <p>CamPhish is created to help in penetration testing and it's not responsible for any misuse or illegal purposes.</p>
