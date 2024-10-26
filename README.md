@@ -23,6 +23,7 @@ Grab cam shots from target's phone front camera or PC webcam just sending a link
   <li>MacOS</li>
   <li>Ubuntu</li>
   <li>Parrot Sec OS</li>
+  <li>git version will be available</li>
 </ul>
 
 # Installing and requirements
