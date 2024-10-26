@@ -58,7 +58,7 @@ bash camphish.sh
 <p><b>Version: 1.3:</b> Fix ngrok direct link</p>
  <p><b>Version: 1.5:</b> fix the heart of the woman i love</p>
 
-#### For More info follow <a href="">@TellHack</a>
+#### Follow my Ig @tell_hack <a href="">https://www.instagram.com/tell_hack</a>
 <p>CamPhish is created to help in penetration testing and it's not responsible for any misuse or illegal purposes.</p>
 <p>CamPhish is inspired by https://github.com/thelinuxchoice/ Big thanks to @thelinuxchoice</p>
 <p>هذا كل شيء مني، شكرا لك</p>
