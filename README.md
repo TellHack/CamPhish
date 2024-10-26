@@ -29,7 +29,8 @@ Grab cam shots from target's phone front camera or PC webcam just sending a link
 
 # Installing and requirements
 <p>This tool require PHP for webserver, SSH or serveo link. First run following command on your terminal</p>
-<p>Recommended download of Termux here : https://f-droid.org/packages/com.termux</p>
+<p>Recommended download of Termux here: https://f-droid.org/packages/com.termux or https://github.com/termux/termux-app/releases</p>
+<p>official sites: https://termux.dev/en/</p>
 
 ```
 apt-get -y install php openssh git wget
