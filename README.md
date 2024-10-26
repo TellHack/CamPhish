@@ -1,3 +1,5 @@
+#                                                                                                                                                      بِسْــــــــــــــــــمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ 
+
 # FAZ.ALPHA
 Grab cam shots from target's phone front camera or PC webcam just sending a link.
 ![CamPhish By FAZ.Pemuda Akhir Zaman](https://i.imghippo.com/files/VhrAC1723911538.png)
