@@ -21,7 +21,7 @@ printf " \e[1;91m Tools Name : SAP-SAP.TOOLS > PAZ.Pemuda Akhir Zaman | CyberHac
 
 printf " \e[1;92m Bro Bahagiakan Orang Tuamu Dulu , Jangan Dia Dulu \e[0m \n"
 
-printf " \e[1;77m #belum Saatnya \e[0m \n"
+printf " \e[1;77m #belum Saatnya WellllllllKeun weee lahnya\e[0m \n"
 
 printf " \e[1;92m LEBIH BAIK MENGEJAR PRESTASI >> DARI PADA DIA YANG TIDAK PASTI << Aiwah Cokkk \e[0m \n"
 
@@ -35,7 +35,7 @@ printf "\n"
 dependencies() {
 
 
-command -v php > /dev/null 2>&1 || { echo >&2 "I require php but it's not installed. Install it. Aborting. LAH LU MAH :>"; exit 1; }
+command -v php > /dev/null 2>&1 || { echo >&2 "I require php but it's not installed. Install it. Aborting.php nya mana ? LAH LU MAH :>"; exit 1; }
  
 
 
@@ -101,7 +101,7 @@ done
 
 server() {
 
-command -v ssh > /dev/null 2>&1 || { echo >&2 "I require ssh but it's not installed. Install it. Aborting. Maka nya inst :>all Dulu Jangan Ke Dia  Mulu"; exit 1; }
+command -v ssh > /dev/null 2>&1 || { echo >&2 "I require ssh but it's not installed. Install it. Aborting. Maka nya install Dulu Jangan Dia mulu  Mulu"; exit 1; }
 
 printf "\e[1;77m[\e[0m\e[1;93m+\e[0m\e[1;77m] Starting Serveo Sever Hatinya...\e[0m\n"
 
